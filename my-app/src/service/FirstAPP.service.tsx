@@ -1,12 +1,13 @@
 
-import axios from 'axios'
+import axios from 'axios';
+
 export async function myTestData(){
 
     const endPointUrl= ''+'TestData';
 
     let serviceResponse;
     try{
-        serviceResponse = "Stay tuned...";// await axios.get(endPointUrl) ;
+        serviceResponse = "Stay tuned........";// await axios.get(endPointUrl) ;
     }catch(error){
         console.log('---error--', error);
     }

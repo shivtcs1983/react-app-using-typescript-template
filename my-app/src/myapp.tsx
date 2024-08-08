@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { myTestData } from './service/FirstAPP.service'
 function FirstAPP() {
 
-    const [myResponseData, setMyResponseData]= useState()
+    const [myResponseData, setMyResponseData]= useState<any>()
 
     useEffect(() => {
         async function fetchData() {
